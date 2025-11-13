@@ -6,6 +6,9 @@
 using namespace std;
 
 int main() {
+    // Vaihdetaan Windowsin konsolin merkistö UTF-8:ksi, jotta ääkköset näkyvät oikein
+    system("chcp 65001 > nul");
+
     cout << "--- Car test ---" << endl;
     Car car1;
     car1.setBrand("Toyota");
