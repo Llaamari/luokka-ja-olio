@@ -19,7 +19,7 @@ int main() {
     rect->setHeight(3.2);
     cout << "Area: " << rect->getArea() << endl;
     cout << "Circumference: " << rect->getCircum() << endl;
-    delete rect; // Tuhotaan keko-olio
+    delete rect; // Tuhotaan olio
 
     cout << "\n--- Student test ---" << endl;
     unique_ptr<Student> stu = make_unique<Student>();
